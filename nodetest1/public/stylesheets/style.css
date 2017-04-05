@@ -16,4 +16,5 @@ ul {
   font-size: 10px;
   text-decoration: none;
   font-weight: bold;
+  display: flex;
 }
