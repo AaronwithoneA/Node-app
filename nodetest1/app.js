@@ -53,10 +53,4 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-router.get('/newuser', function(req, res) {
-    res.render('newuser', { title: 'Add New User' });
-});router.get('/newuser', function(req, res) {
-    res.render('newuser', { title: 'Add New User' });
-});
-
 module.exports = app;
